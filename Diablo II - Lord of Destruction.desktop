@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Diablo II - Lord of Destruction
+Exec=env WINEPREFIX="/home/jeremys/.wine" wine C:\\\\Program\\ Files\\\\Diablo\\ II\\\\Diablo\\ II.exe 
+Type=Application
+StartupNotify=true
+Path=/home/jeremys/.wine/dosdevices/c:/Program Files/Diablo II
+Icon=CFF8_Diablo II.0

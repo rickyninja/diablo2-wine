@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Diablo II - PlugY
+#Exec=env WINEPREFIX="/home/jeremys/.wine" wine PlugY.exe
+Exec=/home/jeremys/bin/diablo-plugy.sh
+Type=Application
+StartupNotify=true
+Path=/home/jeremys/PlugY
+Icon=CFF8_Diablo II.0
