@@ -16,6 +16,9 @@ mules=(
     soc_staff.d2s
     soc_shields.d2s
     phase_blades.d2s
+    pgems.d2s
+    soc_bow.d2s
+    soj.d2s
 )
 
 function dry {
@@ -55,11 +58,7 @@ function comp {
 # After finding a new item, backup the game character files.
 function backup {
     for mule in ${mules[@]}; do
-        if dry; then
-            echo cp "$gamedir/$mule" "$backupdir/$mule"
-        else
-            cp "$gamedir/$mule" "$backupdir/$mule"
-        fi
+        cmp "$gamedir/$mule" "$backupdir/$mule" 
     done
 }
 
